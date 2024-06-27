@@ -1,0 +1,65 @@
+# Node.js dependencies
+/node_modules
+/npm-debug.log
+/yarn-error.log
+/package-lock.json
+/yarn.lock
+
+# Local development environment
+/.env
+/.DS_Store
+
+# Build output
+/dist
+/build
+
+# IDE specific files
+/.vscode
+.idea/
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# SASS cache
+.sass-cache
+
+# Miscellaneous
+*.swp
+*.lock
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.gz
+
+# Coverage directory used by tools like istanbul
+/coverage
+
+# Comment out if you have these files tracked in your repository
+# package-lock.json
+# yarn.lock
+
+# Ignore all minified files
+*.min.js
+*.min.css
+
+# Ignore config files
+*.local
+*.env.local
+
+# Ignore generated files by build tools
+/.cache
+/out
+
+# Do not ignore source maps
+#*.map
